@@ -23,5 +23,5 @@ export class User {
   authStrategy: string;
 
   @CreateDateColumn()
-  created_at: Date;
+  createdAt: Date;
 }
